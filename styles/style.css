@@ -28,9 +28,60 @@ button{
 }
 
 .header{
-
+    background: #322E41;
 }
-
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    width: 103px;
+    height: 38px;
+}
+.header__logo img{
+    width: 70%;
+    height: 70%;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.header__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    height: 565px;
+    background: url(../images/banner.png) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.header__text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.header__link{
+    padding: 15px;
+    color: white;
+}
 .news{
 
 }
